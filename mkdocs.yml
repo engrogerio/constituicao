@@ -1,0 +1,4 @@
+site_name: A Constituição Brasileira
+pages:
+    - Home: index.md
+theme: readthedocs
