@@ -1,4 +1,8 @@
 site_name: A Constituição Brasileira
-pages:
+nav:
     - Home: index.md
-theme: readthedocs
+theme: 
+    name: 'material' 
+    palette:
+        primary: 'green'
+        secondary: 'yellow'
