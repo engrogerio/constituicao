@@ -19,7 +19,7 @@ COPY constituicao.com /etc/nginx/sites-available
 
 RUN ln -s -f /etc/nginx/sites-available/constituicao.com /etc/nginx/sites-enabled/default
 
-COPY ./site /var/www/constituicao.com
+COPY /site /var/www/constituicao.com
 
 EXPOSE 80
 CMD ["nginx","-g","daemon off;"]
