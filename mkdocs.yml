@@ -2,7 +2,7 @@ site_name: A Constituição Brasileira
 nav:
     - Home: index.md
 theme: 
-    name: 'material' 
+    name: 'readthedocs' 
     palette:
         primary: 'green'
         secondary: 'yellow'
